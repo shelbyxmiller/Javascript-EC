@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shelby Miller Intro</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+
+<div id="hello">
+ <h1>Hi, I'm Shelby!</h1>
+</div>
+
+<div id="about">
+
+  <p id="demo">I'm a music and event photographer.</p>
+
+  <button type="button" onclick="document.getElementById('demo').innerHTML = 'i really miss live events, but here are some photos of the last event i was able to photograph in the middle of it all, a drive-in drag show.'">wow, how do you feel about this whole pandemic?</button>
+
+</div>
+
+<div id=clickphoto>
+
+  <button onclick="document.getElementById('myImage').src='2T4A2640copy.jpg'">move back!</button>
+
+  <img id="myImage" src="2T4A2640copy.jpg" style="width:500px">
+
+  <button onclick="document.getElementById('myImage').src='2T4A2641copy.jpg'">move!</button>
+
+</div>
+
+<div>
+    <div id="websites">
+        <a href="https://www.shelbymillerphoto.com/">my website</a>
+        <a href="https://www.offtherecordpress.com/">my publication</a>
+    </div>
+</div>
+
+<button onclick="myFunction()">i have a secret</button>
+
+<script>
+function myFunction() {
+  alert("i don't actually, i just tricked you!");
+}
+</script>
+
+</body>
+</html>

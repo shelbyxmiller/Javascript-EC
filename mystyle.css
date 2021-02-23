@@ -1,0 +1,160 @@
+/* FONTS *************/
+
+@font-face {
+  font-family: wishleman;
+  src: url(Fonts/wishleman/Wishleman.ttf);
+}
+
+@font-face {
+  font-family: magazine;
+  src: url(Fonts/magazine/Magazine.ttf);
+}
+
+@font-face {
+  font-family: edition;
+  src: url(Fonts/EDITION_.ttf);
+}
+
+@font-face {
+  font-family: made_bon_voyage;
+  src: url(Fonts/made_bon_voyage/MADE Bon Voyage Thin PERSONAL USE.otf);
+}
+
+@font-face {
+  font-family: made_bon_voyage_heavy;
+  src: url(Fonts/made_bon_voyage_heavy/MADE Bon Voyage Regular PERSONAL USE.otf);
+}
+/* FONTS *************/
+
+body {
+  background-color: #bd7040;
+  font-size: 40px;
+  background: repeating-linear-gradient(
+  45deg,
+  #dd9c8b,
+  #e4a08d 10px,
+  #e4a08d 10px,
+  #dd9c8b 20px
+);
+}
+
+#hello {
+  color: white;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: -20px;
+  outline-style: dashed;
+  background-color: #a5786b; opacity: 0.9;
+  text-align: center;
+  font-size: 40px;
+  font-family: magazine;
+  text-shadow: 2px 2px 4px #66451b;
+  outline-style: dashed;
+  background-color: #a5786b; opacity: 0.9;
+  box-shadow: 0 2px 4px 1px rgba(33, 21, 8, 0.3), 0 3px 10px 1px rgba(33, 21, 8, 0.3);
+}
+
+#about {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  background: #b17c6e; opacity: 0.9;
+  text-align: center;
+  border-radius: 25px;
+  border: 9px; solid #9c9170;
+  padding: 20px;
+  width: 75%;
+  font-family: magazine;
+  font-size: 25px;
+  box-shadow: 0 2px 4px 1px rgba(33, 21, 8, 0.3), 0 3px 10px 1px rgba(33, 21, 8, 0.3);
+  border-radius: 25px;
+  border: 3px solid #7a574d;
+  border-radius: 10px;
+}
+
+#box1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  background: #b17c6e; opacity: 0.9;
+  border-radius: 25px;
+  border: 9px; solid #9c9170;
+  padding: 30px;
+  width: 75%;
+  box-shadow: 0 2px 4px 1px rgba(33, 21, 8, 0.3), 0 3px 10px 1px rgba(33, 21, 8, 0.3);
+  border-radius: 25px;
+  border: 3px solid #7a574d;
+  border-radius: 10px;
+}
+
+#clickphoto {
+  color: #fff;
+  background: #b47a6a;
+  margin-bottom: 50px;
+  text-align: center;
+  display: block;
+  border-radius: 25px;
+  border: 3px solid #7a574d;
+  font-size: 20px;
+  font-family: linux_libertine;
+  font-style: italic;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 2px 4px 1px rgba(33, 21, 8, 0.3), 0 3px 10px 1px rgba(33, 21, 8, 0.3);
+}
+
+#websites{
+  text-align: center;
+  padding: 15px;
+  margin-top: 15px;
+  margin: 0px auto;
+}
+#websites a, #websites span {
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 0px auto;
+}
+
+a {
+  color: #fff;
+  background: #b47a6a;
+  margin-top: -30px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  display: block;
+  border-radius: 25px;
+  border: 3px solid #7a574d;
+  font-size: 20px;
+  font-style: italic;
+  border-radius: 10px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 4px 1px rgba(33, 21, 8, 0.3), 0 3px 10px 1px rgba(33, 21, 8, 0.3);
+}
+a:link {
+  text-decoration: none;
+  color: #fff;
+  background: #b47a6a;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+  background: #7a574d;
+}
+a:active {
+  text-decoration: underline;
+  color: #FFF;
+  background: #7a574d;
+}
